@@ -10,16 +10,6 @@ st.image("https://res.cloudinary.com/ikip-siliwangi/image/upload/v1733135017/fiv
 tab = st.tabs(["Lingkungan di Sekitarku","Menjaga Lingkungan Sekitar","Numerasi"])
 with tab[0]:
     st.image("https://res.cloudinary.com/ikip-siliwangi/image/upload/v1732279393/ayo_bacalah_ohjve1.png")
-    with st.container(border=True):
-        kol = st.columns(4,vertical_alignment="center")
-        with kol[0]:
-            st.image("https://img1.picmix.com/output/stamp/normal/7/8/6/4/934687_c939f.gif",width=200)
-        with kol[1]:
-            st.image("https://phoneky.co.uk/thumbs/screensavers/down/nature/flower_avuadpxp.gif",width=200)
-        with kol[2]:
-            st.image("https://phoneky.co.uk/thumbs/screensavers/down/new/places/woodhouseu_TvszJdtL.gif",width=200)
-        with kol[3]:
-            st.image("https://i0.wp.com/i285.photobucket.com/albums/ll73/lucky2_photo/hujan-1.gif",width=200)
     tulisan_html='''
     <!DOCTYPE html>
 <html lang="en">
@@ -56,8 +46,9 @@ with tab[0]:
             gap: 10px;
         }
         .isi{
-            font-family:"comic sans ms";
-            font-size:20px;
+            font-family:"Times New Roman";
+            font-size:22px;
+            color:black;
             margin:10px;
             border-radius:10px;
             background-color:lightcyan;
@@ -222,8 +213,9 @@ with tab[1]:
     tulisan_css='''
         <style>
             .gaya-teks{
-                font-family:"comic sans ms";
-                font-size:20px;
+                font-family:"Times New Roman";
+                font-size:22px;
+                color:black;
                 border-radius:10px;
                 padding:5px;
                 text-indent:60px;
