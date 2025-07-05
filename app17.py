@@ -10,7 +10,7 @@ tulisan_css='''
 <style>
     .stTabs p{
         color:blue;
-        font-family:"comic sans ms";
+        font-family:"Times New Roman";
         font-size:20px;
         font-weight:bold;
         padding:5px;
@@ -75,7 +75,7 @@ with tab[0]:
     color:black;
 }
 .paragraf{
-    font-family:Arial;
+    font-family:"Times New Roman";
     font-size:20px;
     padding:5px;
     border:2px solid black;
