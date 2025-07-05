@@ -61,6 +61,7 @@ with tab[0]:
                 linear-gradient(90deg, #e74c3c, #f1c40f, #3498db, #9b59b6) border-box;
     border-radius: 15px;
     position: relative;
+    font-family:'Times New Roman';
     animation: border-move 3s linear infinite;
   }
     .animated-border:hover{
@@ -205,7 +206,7 @@ with tab[1]:
     <title>Document</title>
     <style>
         .pertanyaan{{
-            font-family:"comic sans ms";
+            font-family:"Times New Roman";
             font-size:20px;
             margin:10px;
             color:blue;
@@ -421,6 +422,5 @@ with tab[1]:
     st.components.v1.html(tulisan_html3,width=1000,height=13000)
     
     
-
 
 
