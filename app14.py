@@ -631,17 +631,9 @@ with tab[2]:
             var soal7 = document.getElementsByClassName("pertanyaan7")
             var soal8a = document.getElementsByClassName("pertanyaan8a")
             var soal8b = document.getElementsByClassName("pertanyaan8b")
-            set(ref(db, 'lingkunganNumerasi/' + nama), { 
+            set(ref(db, 'lingkungan1/' + nama+'/soal'), {
                 nama:nama,
                 kelas:kelas,
-            })
-                .then(() => {
-                    alert('Data added successfully');
-                })
-                .catch((error) => {
-                console.error("Error adding data:", error);
-            });
-            set(ref(db, 'lingkungan1/' + nama+'/soal'), {
                 soal1a:soal1a.value,
                 soal1b:soal1b.value,
                 soal2a:soal2a.value,
